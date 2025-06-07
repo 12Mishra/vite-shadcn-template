@@ -1,0 +1,28 @@
+# Core configuration files
+tailwind.config.js
+postcss.config.js
+tsconfig.json
+vite.config.ts
+package.json
+package-lock.json
+
+# Shadcn core files
+components.json
+lib/utils.ts
+lib/constants.ts
+
+# Base styling
+src/index.css
+src/global.css
+
+# Component directories
+src/components/ui/**
+src/components/shadcn/**
+
+# Type definitions
+src/types/**
+src/env.d.ts
+
+# Build output
+dist/**
+build/**

@@ -1,12 +1,30 @@
+TEMPLATE INSTRUCTIONS:
 
-For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+When using this shadcn template, follow these guidelines:
 
-Do not write code that will trigger this error: "Warning: Extra attributes from the server: %s%s""class,style"
+1. Component Selection:
+   - Only import and use shadcn components that are actually needed for the project
+   - Do not import all components at once
+   - Use the shadcn CLI to add components as needed: npx shadcn-ui@latest add [component-name]
 
-By default, this template supports JSX syntax with Tailwind CSS classes, the shadcn/ui library, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+2. CSS Configuration:
+   - Ensure tailwind.config.js is properly configured
+   - Keep the global.css file with proper shadcn imports
+   - Do not modify the base shadcn styling system
 
-Use icons from lucide-react for logos.
+3. Component Usage:
+   - Import components directly from their respective directories
+   - Follow shadcn's documentation for proper component usage
+   - Maintain proper TypeScript types for all components
 
-Use stock photos from unsplash where appropriate, only valid URLs you know exist.
+4. Styling:
+   - Use Tailwind classes for custom styling
+   - Extend the theme in tailwind.config.js when needed
+   - Maintain consistent styling patterns
 
-CRITICAL RULE: NEVER WRITE `package.json` directly use npm comands to install packages if needed 
+5. Performance:
+   - Only import components that are actually used
+   - Avoid unnecessary component imports
+   - Keep bundle size optimized
+
+Remember: This template is optimized for shadcn/ui components. Use them appropriately and only when needed.
